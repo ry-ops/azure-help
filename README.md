@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/banner.svg" alt="azure-help: Notes and playbooks for the non-obvious corners of Azure" width="100%"></p>
+
 # azure-help
 
 Personal notes and playbooks for working with the Azure portal — things that turned out to be
@@ -15,3 +17,8 @@ Azure's billing and support UI has a few flows that are inconsistent or flaky en
 worth writing down the exact working steps rather than relearning them each time. These docs are
 written from direct experience filing real refund requests, including the dead ends that didn't
 work.
+
+<!-- org-footer -->
+---
+
+<p align="center"><sub>Part of <a href="https://github.com/ry-ops">ry-ops</a> · building the pipes between infrastructure, automation, and observability · built by <a href="https://github.com/ry-ops">ry-ops</a></sub></p>
