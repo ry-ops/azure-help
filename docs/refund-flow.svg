@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 360" width="960" height="360" role="img" aria-labelledby="t d">
+  <title id="t">The Azure refund request process</title>
+  <desc id="d">Four steps: find the invoice in Cost Management, try the self-service refund tool (which has a hidden expedited-refund limit), file a billing support ticket as a credit request (skipping the Solutions self-help trap), and confirm the credit in the ticket.</desc>
+  <style>
+    text { font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; fill:#e6ebf5; }
+    .muted { fill:#8b96ad; }
+    @keyframes s0 { 0%,4.00% { opacity:0; transform:translateY(10px); } 8.00%,95% { opacity:1; transform:translateY(0); } 100% { opacity:0; } } .s0 { animation:s0 10.0s infinite; }
+    @keyframes s1 { 0%,10.00% { opacity:0; transform:translateY(10px); } 14.00%,95% { opacity:1; transform:translateY(0); } 100% { opacity:0; } } .s1 { animation:s1 10.0s infinite; }
+    @keyframes s2 { 0%,16.00% { opacity:0; transform:translateY(10px); } 20.00%,95% { opacity:1; transform:translateY(0); } 100% { opacity:0; } } .s2 { animation:s2 10.0s infinite; }
+    @keyframes s3 { 0%,22.00% { opacity:0; transform:translateY(10px); } 26.00%,95% { opacity:1; transform:translateY(0); } 100% { opacity:0; } } .s3 { animation:s3 10.0s infinite; }
+    @media (prefers-reduced-motion: reduce) { * { animation:none !important; } }
+  </style>
+  <rect width="960" height="360" rx="20" fill="#0f1420"/>
+  <text x="40" y="56" font-size="27" font-weight="800">Requesting an Azure refund</text>
+  <text x="40" y="82" font-size="15" class="muted">The path that actually works — including the two places the UI trips you up.</text>
+  <g class="s0">
+      <rect x="40" y="150" width="210" height="86" rx="12" fill="#0078d4" fill-opacity=".1" stroke="#0078d4" stroke-opacity=".6"/>
+      <circle cx="70" cy="182" r="17" fill="#0078d4"/><text x="70" y="188" text-anchor="middle" font-size="16" font-weight="800" fill="#0f1420">1</text>
+      <text x="96" y="180" font-size="13.5" font-weight="700">Find the invoice</text>
+      <text x="96" y="202" font-size="10.5" class="muted">Cost Management → Invoices</text>
+      
+    </g><path d="M252 193 l18 0" stroke="#4a5163" stroke-width="2"/><path d="M266 189 l6 4 l-6 4" fill="#4a5163"/><g class="s1">
+      <rect x="272" y="150" width="210" height="86" rx="12" fill="#3ec7ff" fill-opacity=".1" stroke="#3ec7ff" stroke-opacity=".6"/>
+      <circle cx="302" cy="182" r="17" fill="#3ec7ff"/><text x="302" y="188" text-anchor="middle" font-size="16" font-weight="800" fill="#0f1420">2</text>
+      <text x="328" y="180" font-size="13.5" font-weight="700">Self-service refund</text>
+      <text x="328" y="202" font-size="10.5" class="muted">works for small amounts</text>
+      <rect x="272" y="246" width="210" height="44" rx="10" fill="#2d2512" stroke="#ffb02e" stroke-opacity=".6"/><text x="284" y="264" font-size="10" font-weight="700" style="fill:#ffd88a">⚠ WATCH OUT</text><text x="284" y="281" font-size="10.5" class="muted">hidden expedited-refund limit</text>
+    </g><path d="M484 193 l18 0" stroke="#4a5163" stroke-width="2"/><path d="M498 189 l6 4 l-6 4" fill="#4a5163"/><g class="s2">
+      <rect x="504" y="150" width="210" height="86" rx="12" fill="#b58cff" fill-opacity=".1" stroke="#b58cff" stroke-opacity=".6"/>
+      <circle cx="534" cy="182" r="17" fill="#b58cff"/><text x="534" y="188" text-anchor="middle" font-size="16" font-weight="800" fill="#0f1420">3</text>
+      <text x="560" y="180" font-size="13.5" font-weight="700">File a support ticket</text>
+      <text x="560" y="202" font-size="10.5" class="muted">Billing → Credit request</text>
+      <rect x="504" y="246" width="210" height="44" rx="10" fill="#2d2512" stroke="#ffb02e" stroke-opacity=".6"/><text x="516" y="264" font-size="10" font-weight="700" style="fill:#ffd88a">⚠ WATCH OUT</text><text x="516" y="281" font-size="10.5" class="muted">skip the "Solutions" trap</text>
+    </g><path d="M716 193 l18 0" stroke="#4a5163" stroke-width="2"/><path d="M730 189 l6 4 l-6 4" fill="#4a5163"/><g class="s3">
+      <rect x="736" y="150" width="210" height="86" rx="12" fill="#3ddc84" fill-opacity=".1" stroke="#3ddc84" stroke-opacity=".6"/>
+      <circle cx="766" cy="182" r="17" fill="#3ddc84"/><text x="766" y="188" text-anchor="middle" font-size="16" font-weight="800" fill="#0f1420">4</text>
+      <text x="792" y="180" font-size="13.5" font-weight="700">Credit issued</text>
+      <text x="792" y="202" font-size="10.5" class="muted">confirm in the ticket</text>
+      
+    </g>
+  <text x="40" y="330" font-size="12" class="muted">Full steps and the known flakiness notes are in <tspan font-weight="700">refund-request-process.md</tspan>.</text>
+</svg>
