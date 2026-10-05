@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" width="960" height="400" role="img" aria-labelledby="t d">
+  <title id="t">azure-help: the shortcut through Azure's confusing corners</title>
+  <desc id="d">Azure's billing and support UI sends you down dead ends. These notes trace the one path that actually works, from the portal to the outcome you wanted.</desc>
+  <defs><linearGradient id="title" x1="0" x2="1"><stop offset="0" stop-color="#0078d4"/><stop offset=".5" stop-color="#3ec7ff"/><stop offset="1" stop-color="#50e6ff"/></linearGradient></defs>
+  <style>
+    text { font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; fill:#e6ebf5; }
+    .muted { fill:#8b96ad; } .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+    @keyframes good { 0%,6.67% { stroke-dashoffset:520; } 50.00%,95.56% { stroke-dashoffset:0; } 100% { stroke-dashoffset:520; } } .good { stroke-dasharray:520; animation: good 9.0s ease-in-out infinite; }
+    @keyframes arrive { 0%,47.78% { opacity:0; transform:scale(.6); } 53.33%,95.56% { opacity:1; transform:scale(1); } 100% { opacity:0; } } .arrive { animation: arrive 9.0s infinite; transform-box: fill-box; transform-origin:center; }
+    @keyframes x0 { 0%,11.11% { opacity:0; } 14.44%,93.33% { opacity:.8; } 100% { opacity:0; } } .x0 { animation: x0 9.0s infinite; }
+    @keyframes x1 { 0%,16.67% { opacity:0; } 20.00%,93.33% { opacity:.8; } 100% { opacity:0; } } .x1 { animation: x1 9.0s infinite; }
+    @keyframes x2 { 0%,22.22% { opacity:0; } 25.56%,93.33% { opacity:.8; } 100% { opacity:0; } } .x2 { animation: x2 9.0s infinite; }
+    @media (prefers-reduced-motion: reduce) { * { animation:none !important; } .good{stroke-dashoffset:0} }
+  </style>
+  <rect width="960" height="400" rx="20" fill="#0f1420"/>
+  <text x="40" y="60" font-size="42" font-weight="800" style="fill:url(#title)">azure-help</text>
+  <text x="42" y="90" font-size="16" class="muted">Hard-won playbooks for the non-obvious corners of Azure.</text>
+
+  <!-- start -->
+  <rect x="130" y="210" width="120" height="60" rx="12" fill="#161d2b" stroke="#0078d4" stroke-width="2"/>
+  <text x="190" y="238" text-anchor="middle" font-size="13" font-weight="700">Azure</text>
+  <text x="190" y="256" text-anchor="middle" font-size="11" class="muted">portal</text>
+
+  <g class="x0"><path d="M250 240 Q 340 120, 430 150" fill="none" stroke="#4a5163" stroke-width="2" stroke-dasharray="4 5"/><circle cx="430" cy="150" r="11" fill="#1a1f2b" stroke="#ff5c6e" stroke-width="2"/><path d="M425 145 l10 10 M435 145 l-10 10" stroke="#ff5c6e" stroke-width="2"/></g><g class="x1"><path d="M250 240 Q 360 290, 470 306" fill="none" stroke="#4a5163" stroke-width="2" stroke-dasharray="4 5"/><circle cx="470" cy="306" r="11" fill="#1a1f2b" stroke="#ff5c6e" stroke-width="2"/><path d="M465 301 l10 10 M475 301 l-10 10" stroke="#ff5c6e" stroke-width="2"/></g><g class="x2"><path d="M250 240 Q 445 130, 640 160" fill="none" stroke="#4a5163" stroke-width="2" stroke-dasharray="4 5"/><circle cx="640" cy="160" r="11" fill="#1a1f2b" stroke="#ff5c6e" stroke-width="2"/><path d="M635 155 l10 10 M645 155 l-10 10" stroke="#ff5c6e" stroke-width="2"/></g>
+  <!-- the good path -->
+  <path class="good" d="M250 240 C 400 240, 460 250, 560 250 S 740 250, 820 250" fill="none" stroke="#3ddc84" stroke-width="3.5" stroke-linecap="round"/>
+  <g class="arrive"><rect x="820" y="222" width="110" height="56" rx="12" fill="#123322" stroke="#3ddc84" stroke-width="2"/><text x="875" y="248" text-anchor="middle" font-size="13" font-weight="700" style="fill:#9ff0c4">what you</text><text x="875" y="266" text-anchor="middle" font-size="13" font-weight="700" style="fill:#9ff0c4">wanted ✓</text></g>
+
+  <text x="130" y="372" font-size="13" class="muted">The dead ends, and the one path that works — written down so you don't rediscover them.</text>
+</svg>
